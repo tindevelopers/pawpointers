@@ -10,10 +10,11 @@ export default function HeroSection() {
   return (
     <section className="relative w-full h-[800px] flex items-center justify-start pl-[150px] mx-auto">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+      <div
+        className="absolute inset-0 bg-cover bg-no-repeat"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1517849845537-4d257902454a?w=2880&auto=format&fit=crop')"
+          backgroundImage: "url('https://images.unsplash.com/photo-1525253086316-d0c936c814f8?w=2880&auto=format&fit=crop')",
+          backgroundPosition: 'right center'
         }}
       />
       
