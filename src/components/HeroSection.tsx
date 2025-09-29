@@ -13,7 +13,7 @@ export default function HeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('https://api.builder.io/api/v1/image/assets/TEMP/4ab6b01ef006b076e914e27b641e3034fb3cbd8c?width=2880')"
+          backgroundImage: "url('https://images.unsplash.com/photo-1517849845537-4d257902454a?w=2880&auto=format&fit=crop')"
         }}
       />
       
