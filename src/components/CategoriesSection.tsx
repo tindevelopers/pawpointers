@@ -9,7 +9,7 @@ interface CategoryCardProps {
 
 function CategoryCard({ title, listingCount, imageSrc, href }: CategoryCardProps) {
   return (
-    <Link href={href} className="block w-[380px] h-[176px] rounded-lg overflow-hidden relative group cursor-pointer">
+    <Link href={href} className="block w-[380px] h-[240px] md:h-[260px] rounded-lg overflow-hidden relative group cursor-pointer">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-105"
@@ -19,17 +19,17 @@ function CategoryCard({ title, listingCount, imageSrc, href }: CategoryCardProps
       />
       
       {/* Gradient Overlay */}
-      <div 
+      <div
         className="absolute inset-0"
         style={{
-          background: 'linear-gradient(2deg, #000 26.75%, rgba(0, 0, 0, 0.00) 98.38%)'
+          background: 'linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.35) 45%, rgba(0,0,0,0) 100%)'
         }}
       />
 
       {/* Content */}
-      <div className="absolute bottom-6 left-6 flex flex-col gap-1">
-        <h3 className="text-white text-xl font-semibold">{title}</h3>
-        <p className="text-grey-300 text-base">{listingCount} Providers</p>
+      <div className="absolute bottom-6 left-6 flex flex-col gap-1 bg-black/35 px-3 py-2 rounded-md backdrop-blur-[2px]">
+        <h3 className="text-white text-2xl font-semibold leading-tight drop-shadow-lg">{title}</h3>
+        <p className="text-grey-200 text-base drop-shadow">{listingCount} Providers</p>
       </div>
     </Link>
   );
