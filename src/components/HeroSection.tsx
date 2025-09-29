@@ -35,7 +35,7 @@ export default function HeroSection() {
         {/* Title Section */}
         <div className="flex flex-col items-center gap-3 w-full">
           <h1 className="text-grey-800 text-center text-3xl font-semibold">
-            Find Pet Services Near You
+            Find Pet Services Nearest You
           </h1>
           <h2 className="text-grey-500 text-center text-base leading-relaxed">
             Connect with trusted groomers, vets, and pet care professionals.
