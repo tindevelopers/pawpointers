@@ -8,7 +8,7 @@ export default function HeroSection() {
   const [location, setLocation] = useState('');
 
   return (
-    <section className="relative w-full h-[800px] flex items-center justify-center">
+    <section className="relative w-full h-[800px] flex items-center justify-start pl-[150px] mx-auto">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -26,7 +26,7 @@ export default function HeroSection() {
       />
 
       {/* Search Box */}
-      <div className="relative z-10 w-[483px] p-9 flex flex-col items-center gap-8 rounded-lg border border-white backdrop-blur-md"
+      <div className="relative z-10 w-[483px] p-9 flex flex-col items-center justify-start gap-8 rounded-lg border border-white backdrop-blur-md"
            style={{
              background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.44) 100%)'
            }}>
