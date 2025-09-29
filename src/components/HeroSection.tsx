@@ -37,9 +37,9 @@ export default function HeroSection() {
           <h1 className="text-grey-800 text-center text-3xl font-semibold">
             Find Pet Services Near You
           </h1>
-          <p className="text-grey-500 text-center text-base leading-relaxed">
+          <h2 className="text-grey-500 text-center text-base leading-relaxed">
             Connect with trusted groomers, vets, and pet care professionals.
-          </p>
+          </h2>
         </div>
 
         {/* Search Inputs */}
